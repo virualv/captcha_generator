@@ -1,5 +1,5 @@
 import random
-def ve_code():
+def cap_code():
     _code = ''
     for i in range(4):
         a = random.randrange(48,58)
@@ -8,4 +8,4 @@ def ve_code():
         random_num = random.choice([a,b,c])
         _code += chr(random_num)
     return _code
-print(ve_code())
+print(cap_code())
